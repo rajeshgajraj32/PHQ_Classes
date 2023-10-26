@@ -38,7 +38,7 @@ public class UserNameCheck {
 			
 		}
 		else {
-			return "user length is not in CRITE AREA";
+			return "user - fail";
 		}
 	}
 
