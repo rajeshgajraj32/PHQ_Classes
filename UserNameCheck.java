@@ -5,15 +5,13 @@ import java.util.Scanner;
 public class UserNameCheck {
 	
 	static String checkUser(String user) {
-		boolean length=false;
-	    boolean capital=false;
+		boolean capital=false;
 		boolean small=false;
 		boolean number=false;
 		boolean space=true;
 		boolean sing=false;
 		int index=0;
 		if(user.length()>4&&user.length()<=10) {
-			length=true;
 			for(int i=0;i<user.length();i++) {
 				index=user.charAt(i);
 				//System.out.println(index);
@@ -40,7 +38,7 @@ public class UserNameCheck {
 			
 		}
 		else {
-			return "user length is not in crite area";
+			return "user length is not in CRITE AREA";
 		}
 	}
 
